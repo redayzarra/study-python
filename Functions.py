@@ -40,7 +40,7 @@ message = input("Type: ") #Assigns variable message to the user input
 def emoji_converter(message): #Defines the function with parameter message
   words = message.split(" ") #Seperates message into individual words by spaces
   emojis = { #Creates a dictionary with keys and definitions
-    "hello": "Fuck off" 
+    "hello": "How you doin" 
   }
   output = "" #Create an empty output variable to store results in
   for word in words: #Iterate every word in the message one at a time

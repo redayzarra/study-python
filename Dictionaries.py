@@ -29,7 +29,7 @@ print(output)
 message = input("Type: ") #Asks the user to type a message 
 words = message.split(" ") #This function splits the message by a space as indicated
 emojis = {
-  ":)": "Suck a fat dick"
+  ":)": "Smile more"
 }
 output = ""
 for word in words:
