@@ -28,10 +28,10 @@ print(output)
 #Practice
 message = input("Type: ") #Asks the user to type a message 
 words = message.split(" ") #This function splits the message by a space as indicated
-emojis = {
+emojis = { #Create a dictionary with key :) to refer to string Smile more
   ":)": "Smile more"
 }
-output = ""
-for word in words:
-  output += emojis.get(word, word) + " "
-print(output)
+output = "" #Variable output is assigned to an empty string
+for word in words: #Iterate through every element of the array words, and assign every element as the variable word
+  output += emojis.get(word, word) + " " #Retrieve the definition associated with the key and creates another pair if the one we need is not there.
+print(output) #Prints the value associated with variable output

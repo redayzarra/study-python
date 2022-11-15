@@ -23,7 +23,7 @@ for number in numbers: #Iterates for every element in numbers
 print(max) #Prints the value of the highest value in the list
 
 #2D Lists
-matrix = [
+matrix = [ #Creates a 2D list, a list with lists as elements. Essentially, a matrix
   [1, 2, 3],
   [4, 5, 6],
   [7, 8, 9]
@@ -31,9 +31,9 @@ matrix = [
 matrix [0] [1] = 20 #First bracket specifies which list, second specifies which element within that list
 print(matrix[0] [1]) #Prints the second element in the first list
 
-for row in matrix:
-  for item in row:
-    print(item)
+for row in matrix: #Iterate through every element in the matrix, assign the value to row
+  for item in row: #Iterate through every element in row, assign that to item
+    print(item) #Print the value of item
 
 #List Methods
 numbers = [1, 2, 3, 4, 5]

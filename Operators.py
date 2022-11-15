@@ -30,6 +30,6 @@ x = 3 != 2 #Returns True because 3 is not equal to 3
 price = 25
 print(price > 10 and price < 30) #Returns True because it is True AND True
 print(price > 10 or price < 30) #Returns True because it is True or True
-price = 5
+price = 5 #Reassigns the variable price to refer to 5
 print(price > 10 or price < 30) #Returns True because it is False or True
 print(not price > 10) #Returns True because it is NOT False

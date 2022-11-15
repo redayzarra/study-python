@@ -48,6 +48,3 @@ def emoji_converter(message): #Defines the function with parameter message
   return(output) #Return the output value
 
 print(emoji_converter(message)) #Print the result of the function with message
-
-
-#Exceptions
